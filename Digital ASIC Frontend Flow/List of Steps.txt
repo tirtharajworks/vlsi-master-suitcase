@@ -1,0 +1,16 @@
+In the project directory:
+1. Write behavioral code file for the device
+2. Write testbench code file for the device
+3. call C:\oss-cad-suite\environment.bat
+4. iverilog -o simulation.vvp or_gate.v or_gate_tb.v
+5. vvp simulation.vvp
+6. gtkwave simulation.vcd
+7. yosys
+8. read_verilog or_gate.v
+9. hierarchy -top or_gate
+10.proc; opt; techmap; opt
+11.write_verilog synthesized_output.v
+12.show
+13.exit
+14."D:\VLSI\graphviz\Graphviz-12.0.0-win64\bin\dot.exe" -Tpng show.dot -o schematic.png
+
