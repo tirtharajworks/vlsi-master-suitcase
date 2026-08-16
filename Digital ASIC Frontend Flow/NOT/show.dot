@@ -1,0 +1,12 @@
+digraph "not_gate" {
+label="not_gate";
+rankdir="LR";
+remincross=true;
+n2 [ shape=octagon, label="a", color="black", fontcolor="black"];
+n3 [ shape=octagon, label="y", color="black", fontcolor="black"];
+c6 [ shape=record, label="{{<p4> A}|$1\n$not|{<p5> Y}}",  ];
+x0 [shape=point, ];
+c6:p5:e -> x0:w [color="black", fontcolor="black", label=""];
+n2:e -> c6:p4:w [color="black", fontcolor="black", label=""];
+x0:e -> n3:w [color="black", fontcolor="black", label=""];
+}
