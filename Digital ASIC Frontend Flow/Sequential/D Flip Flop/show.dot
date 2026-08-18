@@ -1,0 +1,15 @@
+digraph "dff" {
+label="dff";
+rankdir="LR";
+remincross=true;
+n2 [ shape=octagon, label="clk", color="black", fontcolor="black"];
+n3 [ shape=octagon, label="data", color="black", fontcolor="black"];
+n4 [ shape=octagon, label="q", color="black", fontcolor="black"];
+n5 [ shape=octagon, label="rst", color="black", fontcolor="black"];
+p0 [shape=box, style=rounded, label="PROC $1\ndff.v:4.1-10.4", ];
+n2:e -> p0:w [color="black", fontcolor="black", label=""];
+n3:e -> p0:w [color="black", fontcolor="black", label=""];
+p0:e -> n4:w [color="black", fontcolor="black", label=""];
+n4:e -> p0:w [color="black", fontcolor="black", label=""];
+n5:e -> p0:w [color="black", fontcolor="black", label=""];
+}
