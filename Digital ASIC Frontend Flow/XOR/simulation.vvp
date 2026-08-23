@@ -1,0 +1,71 @@
+#! 
+:ivl_version "14.0 (devel)" "(s20260301-357-g72998c541-dirty)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\OSS-CA~1\lib\ivl\system.vpi";
+:vpi_module "C:\OSS-CA~1\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\OSS-CA~1\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\OSS-CA~1\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\OSS-CA~1\lib\ivl\va_math.vpi";
+S_00000225909a9400 .scope module, "xor_gate_tb" "xor_gate_tb" 2 3;
+ .timescale -9 -12;
+v000002259095eea0_0 .var "test_a", 0 0;
+v00000225909a9720_0 .var "test_b", 0 0;
+v00000225909a97c0_0 .net "test_y", 0 0, L_00000225909a9860;  1 drivers
+S_00000225909a9590 .scope module, "uut" "xor_gate" 2 10, 3 1 0, S_00000225909a9400;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "y";
+    .port_info 1 /INPUT 1 "a";
+    .port_info 2 /INPUT 1 "b";
+L_00000225909a9860 .functor XOR 1, v000002259095eea0_0, v00000225909a9720_0, C4<0>, C4<0>;
+v0000022590976e30_0 .net "a", 0 0, v000002259095eea0_0;  1 drivers
+v0000022590976fd0_0 .net "b", 0 0, v00000225909a9720_0;  1 drivers
+v0000022590976880_0 .net "y", 0 0, L_00000225909a9860;  alias, 1 drivers
+    .scope S_00000225909a9400;
+T_0 ;
+    %vpi_call 2 19 "$dumpfile", "simulation.vcd" {0 0 0};
+    %vpi_call 2 20 "$dumpvars", 32'sb00000000000000000000000000000000, S_00000225909a9400 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 4000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 8000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 16000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 32000, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 5000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002259095eea0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v00000225909a9720_0, 0, 1;
+    %delay 5000, 0;
+    %vpi_call 2 43 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "xor_gate_tb.v";
+    "xor_gate.v";
