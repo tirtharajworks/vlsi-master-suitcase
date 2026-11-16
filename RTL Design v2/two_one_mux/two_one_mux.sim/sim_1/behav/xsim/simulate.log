@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+test_select=0 test_a=0 test_b=0
+actual_output=0 test_a=0
+test_select=0 test_a=0 test_b=1
+actual_output=0 test_a=0
+test_select=0 test_a=1 test_b=0
+actual_output=1 test_a=1
+test_select=0 test_a=1 test_b=1
+actual_output=1 test_a=1
+test_select=1 test_a=0 test_b=0
+actual_output=0 test_b=0
+test_select=1 test_a=0 test_b=1
+actual_output=1 test_b=1
+test_select=1 test_a=1 test_b=0
+actual_output=0 test_b=0
+test_select=1 test_a=1 test_b=1
+actual_output=1 test_b=1
+PASS: All input test cases passed!
+$finish called at time : 24 ns : File "C:/Users/tusha/two_one_mux/two_one_mux.srcs/sim_1/new/two_one_mux_tb.v" Line 65

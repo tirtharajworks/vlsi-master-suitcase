@@ -1,0 +1,303 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Mon Nov 16 02:39:02 2026
+| Host         : LAPTOP-3D8ED6AK running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -delay_type min_max -file C:/Users/tusha/two_one_mux/reports/two_one_mux/timing_summary.rpt
+| Design       : two_one_mux
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+  Inter-SLR Compensation                     :  Conservative
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+No report available as report_methodology has not been run prior. Run report_methodology on the current design for the summary of methodology violations.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (0)
+6. checking no_output_delay (0)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (0)
+------------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (0)
+-------------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.744        0.000                      0                    1        1.949        0.000                      0                    1           NA           NA                      NA                    NA  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock        Waveform(ns)       Period(ns)      Frequency(MHz)
+-----        ------------       ----------      --------------
+virtual_clk  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+virtual_clk         0.744        0.000                      0                    1        1.949        0.000                      0                    1                                                                          
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  virtual_clk
+  To Clock:  virtual_clk
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.744ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        1.949ns,  Total Violation        0.000ns
+PW    :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.744ns  (required time - arrival time)
+  Source:                 select
+                            (input port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            y
+                            (output port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             virtual_clk
+  Path Type:              Max at Slow Process Corner
+  Requirement:            10.000ns  (virtual_clk rise@10.000ns - virtual_clk rise@0.000ns)
+  Data Path Delay:        5.231ns  (logic 3.632ns (69.427%)  route 1.599ns (30.573%))
+  Logic Levels:           3  (IBUF=1 LUT3=1 OBUF=1)
+  Input Delay:            2.000ns
+  Output Delay:           2.000ns
+  Clock Uncertainty:      0.025ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock virtual_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000     0.000    <hidden>
+                         input delay                  2.000     2.000    <hidden>
+                                                      0.000     2.000 r  select
+                         net (fo=0)                   0.000     2.000    select
+                         IBUF (Prop_ibuf_I_O)         0.923     2.923 r  select_IBUF_inst/O
+                         net (fo=1, unplaced)         0.800     3.722    select_IBUF
+                         LUT3 (Prop_lut3_I2_O)        0.124     3.846 r  y_OBUF_inst_i_1/O
+                         net (fo=1, unplaced)         0.800     4.646    y_OBUF
+                         OBUF (Prop_obuf_I_O)         2.585     7.231 r  y_OBUF_inst/O
+                         net (fo=0)                   0.000     7.231    y
+                                                                      r  y
+  -------------------------------------------------------------------    -------------------
+
+                         (clock virtual_clk rise edge)
+                                                     10.000    10.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000    10.000    <hidden>
+                         clock pessimism              0.000    10.000    <hidden>
+                         clock uncertainty           -0.025     9.975    <hidden>
+                         output delay                -2.000     7.975    <hidden>
+  -------------------------------------------------------------------
+                         required time                          7.975    <hidden>
+                         arrival time                          -7.231    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.744    <hidden>
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.949ns  (arrival time - required time)
+  Source:                 select
+                            (input port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            y
+                            (output port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             virtual_clk
+  Path Type:              Min at Fast Process Corner
+  Requirement:            0.000ns  (virtual_clk rise@0.000ns - virtual_clk rise@0.000ns)
+  Data Path Delay:        1.974ns  (logic 1.300ns (65.842%)  route 0.674ns (34.158%))
+  Logic Levels:           3  (IBUF=1 LUT3=1 OBUF=1)
+  Input Delay:            0.500ns
+  Output Delay:           -0.500ns
+  Clock Uncertainty:      0.025ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock virtual_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000     0.000    <hidden>
+                         input delay                  0.500     0.500    <hidden>
+                                                      0.000     0.500 r  select
+                         net (fo=0)                   0.000     0.500    select
+                         IBUF (Prop_ibuf_I_O)         0.152     0.652 r  select_IBUF_inst/O
+                         net (fo=1, unplaced)         0.337     0.989    select_IBUF
+                         LUT3 (Prop_lut3_I2_O)        0.045     1.034 r  y_OBUF_inst_i_1/O
+                         net (fo=1, unplaced)         0.337     1.371    y_OBUF
+                         OBUF (Prop_obuf_I_O)         1.103     2.474 r  y_OBUF_inst/O
+                         net (fo=0)                   0.000     2.474    y
+                                                                      r  y
+  -------------------------------------------------------------------    -------------------
+
+                         (clock virtual_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000     0.000    <hidden>
+                         clock pessimism              0.000     0.000    <hidden>
+                         clock uncertainty            0.025     0.025    <hidden>
+                         output delay                 0.500     0.525    <hidden>
+  -------------------------------------------------------------------
+                         required time                         -0.525    <hidden>
+                         arrival time                           2.474    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  1.949    <hidden>
+
+
+
+
+
+

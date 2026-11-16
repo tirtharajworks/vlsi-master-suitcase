@@ -1,0 +1,62 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Mon Nov 16 02:39:02 2026
+| Host         : LAPTOP-3D8ED6AK running 64-bit major release  (build 9200)
+| Command      : report_timing -delay_type max -from [get_ports a] -to [get_ports y] -max_paths 1 -nworst 1 -path_type full -file C:/Users/tusha/two_one_mux/reports/two_one_mux/timing_a_to_y_max.rpt
+| Design       : two_one_mux
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Synthesized
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.744ns  (required time - arrival time)
+  Source:                 a
+                            (input port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            y
+                            (output port clocked by virtual_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             virtual_clk
+  Path Type:              Max at Slow Process Corner
+  Requirement:            10.000ns  (virtual_clk rise@10.000ns - virtual_clk rise@0.000ns)
+  Data Path Delay:        5.231ns  (logic 3.632ns (69.427%)  route 1.599ns (30.573%))
+  Logic Levels:           3  (IBUF=1 LUT3=1 OBUF=1)
+  Input Delay:            2.000ns
+  Output Delay:           2.000ns
+  Clock Uncertainty:      0.025ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock virtual_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000     0.000    <hidden>
+                         input delay                  2.000     2.000    <hidden>
+                                                      0.000     2.000 r  a
+                         net (fo=0)                   0.000     2.000    a
+                         IBUF (Prop_ibuf_I_O)         0.923     2.923 r  a_IBUF_inst/O
+                         net (fo=1, unplaced)         0.800     3.722    a_IBUF
+                         LUT3 (Prop_lut3_I1_O)        0.124     3.846 r  y_OBUF_inst_i_1/O
+                         net (fo=1, unplaced)         0.800     4.646    y_OBUF
+                         OBUF (Prop_obuf_I_O)         2.585     7.231 r  y_OBUF_inst/O
+                         net (fo=0)                   0.000     7.231    y
+                                                                      r  y
+  -------------------------------------------------------------------    -------------------
+
+                         (clock virtual_clk rise edge)
+                                                     10.000    10.000 r  <hidden>
+                         ideal clock network latency
+                                                      0.000    10.000    <hidden>
+                         clock pessimism              0.000    10.000    <hidden>
+                         clock uncertainty           -0.025     9.975    <hidden>
+                         output delay                -2.000     7.975    <hidden>
+  -------------------------------------------------------------------
+                         required time                          7.975    <hidden>
+                         arrival time                          -7.231    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.744    <hidden>
+
+
+
+
