@@ -1,0 +1,28 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Tue Nov 17 02:40:45 2026
+| Host         : LAPTOP-3D8ED6AK running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Users/tusha/d_ff_pe_enable/reports/d_ff_pe_enable/utilization_hierarchical.rpt
+| Design       : d_ff_pe_enable
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------+--------+------------+------------+---------+------+-----+--------+--------+------------+
+|    Instance    | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------+--------+------------+------------+---------+------+-----+--------+--------+------------+
+| d_ff_pe_enable |  (top) |          0 |          0 |       0 |    0 |   1 |      0 |      0 |          0 |
++----------------+--------+------------+------------+---------+------+-----+--------+--------+------------+
+
+
