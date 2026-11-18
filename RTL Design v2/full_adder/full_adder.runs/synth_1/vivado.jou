@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Nov 13 09:35:28 2026
+# Process ID         : 3612
+# Current directory  : C:/Users/tusha/full_adder/full_adder.runs/synth_1
+# Command line       : vivado.exe -log full_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder.tcl
+# Log file           : C:/Users/tusha/full_adder/full_adder.runs/synth_1/full_adder.vds
+# Journal file       : C:/Users/tusha/full_adder/full_adder.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-3D8ED6AK
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16917 MB
+# Swap memory        : 1140 MB
+# Total Virtual      : 18058 MB
+# Available Virtual  : 3949 MB
+#-----------------------------------------------------------
+source full_adder.tcl -notrace
