@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+00 00 0000 0000
+00 01 0000 0000
+00 10 0000 0000
+00 11 0000 0000
+01 00 0000 0000
+01 01 0001 0001
+01 10 0010 0010
+01 11 0011 0011
+10 00 0000 0000
+10 01 0010 0010
+10 10 0100 0100
+10 11 0110 0110
+11 00 0000 0000
+11 01 0011 0011
+11 10 0110 0110
+11 11 1001 1001
+PASS: All input test cases passed!
+$finish called at time : 160 ns : File "C:/Users/tusha/two_bit_mult/two_bit_mult.srcs/sim_1/new/two_bit_mult_tb.v" Line 31

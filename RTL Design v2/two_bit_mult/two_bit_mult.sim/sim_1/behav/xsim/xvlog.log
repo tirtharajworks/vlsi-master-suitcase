@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tusha/two_bit_mult/two_bit_mult.srcs/sources_1/new/two_bit_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_bit_mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tusha/two_bit_mult/two_bit_mult.srcs/sim_1/new/two_bit_mult_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_bit_mult_tb
