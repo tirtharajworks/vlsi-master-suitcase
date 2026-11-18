@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tusha/eight_bit_rc_adder/eight_bit_rc_adder.srcs/sources_1/new/eight_bit_rc_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eight_bit_rc_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tusha/eight_bit_rc_adder/eight_bit_rc_adder.srcs/sim_1/new/eight_bit_rc_adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eight_bit_rc_adder_tb

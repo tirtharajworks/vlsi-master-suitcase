@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="eight_bit_rc_adder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="eight_bit_rc_adder_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,310.720001 us"></ZoomEndTime>
+      <Cursor1Time time="1,310.720000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="139"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/eight_bit_rc_adder_tb/test_a" type="array">
+      <obj_property name="ElementShortName">test_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">test_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/test_b" type="array">
+      <obj_property name="ElementShortName">test_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">test_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/test_cin" type="logic">
+      <obj_property name="ElementShortName">test_cin</obj_property>
+      <obj_property name="ObjectShortName">test_cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/test_sum" type="array">
+      <obj_property name="ElementShortName">test_sum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">test_sum[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/test_cout" type="logic">
+      <obj_property name="ElementShortName">test_cout</obj_property>
+      <obj_property name="ObjectShortName">test_cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/actual_output" type="array">
+      <obj_property name="ElementShortName">actual_output[8:0]</obj_property>
+      <obj_property name="ObjectShortName">actual_output[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/p" type="array">
+      <obj_property name="ElementShortName">p[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eight_bit_rc_adder_tb/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+</wave_config>
